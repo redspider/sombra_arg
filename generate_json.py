@@ -18,6 +18,21 @@ data['maps'] = {
     'nepal': {
         'name': 'Nepal',
         'location': 'Nepal'
+    },
+    'hanamura': {
+        'name': 'Hanamura'
+    },
+    'hollywood': {
+        'name': 'Hollywood'
+    },
+    'gibraltar': {
+        'name': 'Gibraltar'
+    },
+    'volskaya': {
+        'name': 'Volskaya'
+    },
+    'kings_row': {
+        'name': 'Kings Row'
     }
 }
 
@@ -25,6 +40,31 @@ data['characters'] = {
     'mercy': {
         'name': 'Mercy',
         'real_name': 'Angela Ziegler'
+    },
+    'd.va': {
+        'name': 'D.va',
+        'real_name': 'Hana Song'
+    },
+    'torb': {
+        'name': 'Torbjorn',
+    },
+    'genji': {
+        'name': 'Genji'
+    },
+    'mccree': {
+        'name': 'McCree'
+    },
+    'symmetra': {
+        'name': 'Symmetra'
+    },
+    'bastion': {
+        'name': 'Bastion'
+    },
+    'winston': {
+        'name': 'Winston'
+    },
+    'tracer': {
+        'name': 'Tracer'
     }
 }
 
@@ -37,7 +77,42 @@ data['directions'] = {
     'e': {
         'character': 'mercy',
         'map': 'route66',
-        'time': 35
+        'time': 17
+    },
+    'n': {
+        'character': 'torb',
+        'map': 'nepal',
+        'time': 21
+    },
+    's': {
+        'character': 'genji',
+        'map': 'hanamura',
+        'time': 22
+    },
+    'se': {
+        'character': 'mccree',
+        'map': 'hollywood',
+        'time': 24
+    },
+    'w': {
+        'character': 'symmetra',
+        'map': 'gibraltar',
+        'time': 30
+    },
+    'sw': {
+        'character': 'bastion',
+        'map': 'hollywood',
+        'time': 34
+    },
+    'ne': {
+        'character': 'winston',
+        'map': 'volskaya',
+        'time': 46
+    },
+    'nw': {
+        'character': 'tracer',
+        'map': 'kings_row',
+        'time': 47
     }
 }
 
