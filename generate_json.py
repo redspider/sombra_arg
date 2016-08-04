@@ -4,13 +4,16 @@ import json
 
 data = dict()
 
-data['cipher_base64'] = """U2FsdGVkX1+vupppZksvRf5pq5g5XjFRlipRkwB0K1Y96Qsv2Lm+31cmzaAILwytX/z66ZVWEQM/ccf1g+9m5Ubu1+sit
-+A9cenDxxqklaxbm4cMeh2oKhqlHhdaBKOi6XX2XDWpa6+P5o9MQw=="""
+data['cipher_base64'] = """U2FsdGVkX1+vupppZksvRf5pq5g5XjFRlipRkwB0K1Y96Qsv2Lm+31cmzaAILwytX/z66ZVWEQM/ccf1g+9m5Ubu1+sit+A9cenDxxqklaxbm4cMeh2oKhqlHhdaBKOi6XX2XDWpa6+P5o9MQw=="""
 decoded = base64.b64decode(data['cipher_base64'])
 data['cipher_salt_hex'] = str(binascii.hexlify(decoded[8:16]))
 data['cipher_text_hex'] = str(binascii.hexlify(decoded[16:]))
 
 data['alphabet'] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+
+data['grid_binary'] = """1001101011001011
+1101011010111010
+0101101011010100"""
 
 data['maps'] = {
     'anubis': {
