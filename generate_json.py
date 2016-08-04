@@ -10,6 +10,8 @@ decoded = base64.b64decode(data['cipher_base64'])
 data['cipher_salt_hex'] = str(binascii.hexlify(decoded[8:16]))
 data['cipher_text_hex'] = str(binascii.hexlify(decoded[16:]))
 
+data['alphabet'] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+
 data['maps'] = {
     'anubis': {
         'name': 'Anubis',
