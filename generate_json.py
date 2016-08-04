@@ -268,6 +268,10 @@ data['blizzard_wheel'] = {
     'se': 'Hangzhou'
 }
 
+data['genji_directions'] = ['sw','ne','e','s','se','c','nw','w','n']
+
 data['computed_directions_as_keypad_1_by_time'] = [data['keypad_1'][k] for k,v in sorted(data['directions'].items(), key=lambda i: i[1]['time'])]
+
+data['genji_order'] = [data['directions'][k]['character'] for k in data['genji_directions']]
 
 print(json.dumps(data))
