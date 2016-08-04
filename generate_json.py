@@ -36,6 +36,11 @@ data['maps'] = {
     }
 }
 
+data['usernames'] = [
+    'WNSTN',
+    'SMBRA'
+]
+
 data['characters'] = {
     'mercy': {
         'name': 'Mercy',
