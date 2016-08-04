@@ -11,7 +11,7 @@ The file `generate_json.py` produces a JSON file containing a wide variety of in
 
 `directions` : a dictionary of directions found in a video, associated to `character`, `map` and time index in the video in seconds
 
-`airline_boards` : a list of the airline arrivals boards, dictionaries for each containing `time`, `origin`, `flight`, `on_time` (bool), and `changed` which is a list of the fields that changed in the update on this row.
+`airline_boards_original` and `airline_boards_changed`: a list of the airline arrivals boards, dictionaries for each containing `time`, `origin`, `flight`, `status` (bool), and `side`.
 
 `keypad_1` : a simple map between cardinal directions and a computer keypad
 
