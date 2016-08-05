@@ -47,34 +47,150 @@ data['usernames'] = [
 ]
 
 data['characters'] = {
-    'mercy': {
-        'name': 'Mercy',
-        'real_name': 'Angela Ziegler'
-    },
-    'd.va': {
-        'name': 'D.va',
-        'real_name': 'Hana Song'
-    },
-    'torb': {
-        'name': 'Torbjorn',
-    },
     'genji': {
-        'name': 'Genji'
+        'name': 'Genji',
+        'real_name': 'Genji Shimada',
+        'voice_artist': 'Gaku Space',
+        'base': 'Hanamura? Japan?'
     },
     'mccree': {
-        'name': 'McCree'
+        'name': 'McCree',
+        'real_name': 'Jesse McCree',
+        'voice_artist': 'Matthew Mercer',
+        'base': 'Santa Fe, New Mexico'
     },
-    'symmetra': {
-        'name': 'Symmetra'
+    'pharah': {
+        'name': 'Pharah',
+        'real_name': 'Fareeha Amari',
+        'voice_artist': 'Jen Cohn',
+        'base': 'Giza Plateau'
     },
-    'bastion': {
-        'name': 'Bastion'
+    'reaper': {
+        'name': 'Reaper',
+        'real_name': 'Gabriel Reyes',
+        'voice_artist': 'Keith Ferguson',
+        'base': 'Los Angeles?'
     },
-    'winston': {
-        'name': 'Winston'
+    'soldier76': {
+        'name': 'Soldier: 76',
+        'real_name': 'John Morrison',
+        'alias': 'Jack Morrison',
+        'voice_artist': 'Fred Tatasciore',
+        'base': 'Indiana?'
     },
     'tracer': {
-        'name': 'Tracer'
+        'name': 'Tracer',
+        'real_name': 'Lena Oxton',
+        'voice_artist': 'Cata Theobold',
+        'base': 'London'
+    },
+
+    'bastion': {
+        'name': 'Bastion',
+        'real_name': 'Bastion',
+        'voice_artist': 'Chris Metzen',
+        'base': None,
+        'bird': 'Ganymede'
+    },
+    'hanzo': {
+        'name': 'Hanzo',
+        'real_name': 'Hanzo Shimada',
+        'voice_artist': 'Paul Nakauchi',
+        'base': 'Hanamura? Japan?'
+    },
+    'junkrat': {
+        'name': 'Junkrat',
+        'real_name': 'Jamison Fawkes',
+        'voice_artist': 'Chris Parson',
+        'base': 'Australia'
+    },
+    'mei': {
+        'name': 'Mei',
+        'real_name': 'Mei-Ling Zhou',
+        'voice_artist': 'Zhang Yu',
+        'base': 'China? Antarctica?'
+    },
+    'torbjorn': {
+        'name': 'Torbjorn',
+        'real_name': 'Torbjorn Lindholm',
+        'voice_artist': 'Kevin Silverstein',
+        'base': 'Sweden?'
+    },
+    'widowmaker': {
+        'name': 'Widowmaker',
+        'real_name': 'Amelie Lacroix',
+        'voice_artist': 'Chloe Hollings',
+        'base': 'France? Talon?'
+    },
+
+
+    'd.va': {
+        'name': 'D.va',
+        'real_name': 'Hana Song',
+        'voice_artist': 'Charlet Chung',
+        'base': 'South Korea'
+    },
+    'reinhardt': {
+        'name': 'Reinhardt',
+        'real_name': 'Reinhardt Wilhelm',
+        'voice_artist': 'Darin De Paul',
+        'base': 'Stuttgart'
+    },
+    'roadhog': {
+        'name': 'Roadhog',
+        'real_name': 'Mako Rutledge',
+        'voice_artist': 'Fred Tatasciore',
+        'base': 'Australia'
+    },
+    'winston': {
+        'name': 'Winston',
+        'full_name': 'Winston',
+        'voice_artist': 'Crispin Freeman',
+        'base': 'Gibraltar'
+    },
+    'zarya': {
+        'name': 'Zarya',
+        'full_name': 'Aleksandra Zaryanova',
+        'voice_artist': 'Dolya Gavanski',
+        'base': 'Siberia'
+    },
+
+    'ana': {
+        'name': 'Ana',
+        'full_name': 'Ana Amari',
+        'voice_artist': 'Shohreh Aghdashloo',
+        'base': 'Cairo'
+    },
+    'lucio': {
+        'name': 'Lucio',
+        'real_name': 'Lucio Correia dos Santos',
+        'voice_artist': 'Jonny Cruz',
+        'base': 'Rio de Janeiro'
+    },
+    'mercy': {
+        'name': 'Mercy',
+        'real_name': 'Angela Ziegler',
+        'voice_artist': 'Lucie Pohl',
+        'base': 'Switzerland'
+    },
+    'symmetra': {
+        'name': 'Symmetra',
+        'real_name': 'Satya Vaswani',
+        'voice_artist': 'Anjali Bhimani',
+        'base': 'Utopaea, Southern India'
+    },
+    'zenyatta': {
+        'name': 'Zenyatta',
+        'real_name': 'Tekhartha Zenyatta',
+        'voice_artist': 'Feodor Chin',
+        'base': 'Himalayas, Nepal'
+    },
+
+    'sombra': {
+        'name': 'Sombra',
+        'real_name': None,
+        'possible_real_name': 'Maria Estrada',  # See https://www.reddit.com/r/Overwatch/comments/4vyxji/sombra_is_not_mexican_she_is_from_spain_real_name/
+        'voice_artist': None,
     }
 }
 
